@@ -7,6 +7,11 @@ img {
     width: 400px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* Class selectors */
 .container {
@@ -33,7 +38,13 @@ img {
     background-color: rgb(229, 225, 225);
 }
 
-.form-container {
+.form-group-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
 }
